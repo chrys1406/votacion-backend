@@ -1,0 +1,5 @@
+# pip install fastapi uvicorn python-jose passlib supabase python-dotenv python-multipart bcrypt
+
+-- para hacer correr el backend
+uvicorn main:app --reload
+
