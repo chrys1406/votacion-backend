@@ -9,7 +9,7 @@ import base64
 
 router = APIRouter(prefix="/auth", tags=["Auth"])
 
-IA_URL = "http://localhost:8001"
+IA_URL = "https://christian1406-votacion-microservicio-ia.hf.space"
 
 
 @router.post("/login", response_model=TokenResponse)
