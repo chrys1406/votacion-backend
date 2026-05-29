@@ -1,11 +1,11 @@
 fastapi
 uvicorn
+gunicorn
 python-jose[cryptography]
 passlib[bcrypt]
 supabase
 python-dotenv
 python-multipart
 bcrypt
-
 httpx
 pyjwt
